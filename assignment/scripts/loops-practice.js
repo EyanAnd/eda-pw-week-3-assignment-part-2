@@ -13,18 +13,34 @@ for (let i = 0; i < 4; i++) {
 // 1.a. TODO: Write a for loop to console.log the numbers from 0 to 5 
 //   - Which part of the example loop do you need to change to do this?
 console.log('count from 0 to 5');
+// we just have to change the condition statement so that our variable i 
+// will increase as long as it is less than 6. Like this:
+ for (let i = 0; i < 6; i++) {
+  console.log(i);
+ }
 
 // 1.b. TODO: Write a for loop to console.log the numbers from 3 to 5
 //   - Which part of the example loop do you need to change to do this?
 console.log('count from 3 to 5');
+// in order to change this in the example loop, i would have to equal 3. So we would get this example. 
+for (let i = 3; i < 6; i++) {
+  console.log(i);
+}
 
 // 1.c. TODO: Write a for loop to console.log EVEN numbers from 2 to 10
 //   - Which part of the example loop do you need to change to do this?
 console.log('count even numbers from 2 to 10 (2, 4, 6, 8, 10):');
-
+// we would need to change how i is incremented. as well as change the second 
+// part of the condition to 11 so it logs to 10. we also need to add an if conditional here as well.
+for (let i = 1; i <= 10; i++) {
+  if (i % 2 === 0) { console.log(i);
+  }
+}
 // 1.d. (STRETCH) TODO: Write a for loop to do a countdown from 5 to 0
 console.log('STRETCH: countdown from 5 to 0');
-
+for (let i = 5; i > -1; i--) {
+  console.log(i);
+}
 
 // 2. For of loops  
 console.log('---- 2. For Of loop ----');
